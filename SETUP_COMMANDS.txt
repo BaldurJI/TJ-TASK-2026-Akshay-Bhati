@@ -1,0 +1,25 @@
+GitHub Profile Explorer - Setup
+
+npm install
+npm run typecheck
+npx expo start
+
+Android:
+npx expo start --android
+
+Physical Android phone:
+npx expo start
+Then scan the QR code with Expo Go.
+
+GitHub:
+git init
+git add .
+git commit -m "Initial commit - GitHub Profile Explorer"
+git branch -M main
+
+If GitHub CLI is installed and authenticated:
+gh repo create github-profile-explorer --public --source=. --remote=origin --push
+
+Otherwise:
+git remote add origin https://github.com/<your-username>/github-profile-explorer.git
+git push -u origin main

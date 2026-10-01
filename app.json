@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "GitHub Profile Explorer",
+    "slug": "github-profile-explorer",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.githubprofileexplorer"
+    },
+    "android": {
+      "package": "com.example.githubprofileexplorer"
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
